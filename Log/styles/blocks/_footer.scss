@@ -1,0 +1,98 @@
+.footer {
+  padding: 20vh 0 0 0;
+
+  .footer_support-cont {
+  }
+
+  .footer__big-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .support-cont {
+      width: 80%;
+      padding: 0 0 5vh 0;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid var(--color-orange);
+      gap: 15vw;
+
+      &__text-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+        .support-cont__title {
+          font-size: var(--font-heading4);
+          color: var(--color-white);
+        }
+        .support-cont__text {
+          color: var(--color-white);
+        }
+      }
+      .support-cont__input-cont {
+        display: flex;
+        .support-cont__input {
+          width: 15vw;
+          height: 5vh;
+          padding: 0 0 0 1vw;
+          color: var(--color-white);
+          background-color: var(--color-orange);
+        }
+        .support-cont__btn {
+          width: 8vw;
+          height: 5vh;
+          color: var(--color-orange);
+          background-color: var(--color-white);
+        }
+      }
+    }
+
+    .footer__link-cont {
+      padding: 5vh 0 0 0;
+      .footer__link-listcont {
+        display: flex;
+        justify-content: center;
+        gap: 15vw;
+
+        .footer__about {
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+          gap: 2vh;
+          .footer__about-title {
+            font-size: var(--font-heading5);
+            color: var(--color-white);
+          }
+          .footer__about-text {
+            color: var(--color-white);
+          }
+
+          .footer__about-img {
+            display: flex;
+            gap: 2vh;
+
+            .footer__img-text {
+              line-height: 1.5;
+              color: var(--color-white);
+            }
+          }
+        }
+        .footer__link-list {
+          display: flex;
+          flex-direction: column;
+          gap: 2vh;
+          .footer__list-title {
+            font-size: var(--font-heading5);
+            color: var(--color-white);
+          }
+          .footer__link {
+            color: var(--color-white);
+            font-size: var(--lerege-textbold);
+          }
+        }
+      }
+    }
+  }
+}

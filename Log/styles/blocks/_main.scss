@@ -1,0 +1,42 @@
+main {
+  .main__regist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .regist {
+    height: 100vh;
+    .regist__regist-cont {
+      padding: 5vh;
+      display: flex;
+      flex-direction: column;
+      gap: 2vh;
+      box-shadow: 0 0 10px 5px white;
+      .regist__title-cont {
+        font-size: var(--font-heading3);
+        color: var(--color-white);
+      }
+
+      .regist__input-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+        .regist__input {
+          padding: 0 0 0 1vw;
+          width: 25vw;
+          height: 6vh;
+          border: solid white;
+          color: white;
+        }
+
+        .regist__btn {
+          width: 8vw;
+          height: 5vh;
+          background-color: var(--color-orange);
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+}
