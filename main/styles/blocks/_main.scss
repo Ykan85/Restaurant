@@ -1,0 +1,278 @@
+.main {
+  padding: 20vh 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &__information {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    .information__achievement {
+      display: flex;
+      flex-direction: column;
+      gap: 3vh;
+      width: 30%;
+      .achievement__info-achievement {
+        .info__text {
+          font-size: var(--normal-textbold);
+          color: var(--color-white);
+          line-height: 1.5;
+        }
+        .info-achievement__title {
+          font-size: var(--font-heading5);
+
+          font-family: Great Vibes;
+
+          color: var(--color-orange);
+          .title__span {
+            color: var(--color-orange);
+          }
+        }
+
+        .info-achievement__title-2 {
+          font-size: var(--font-heading2);
+          color: var(--color-white);
+
+          .title__span {
+            color: var(--color-orange);
+          }
+        }
+      }
+
+      .achievement__info-achievement--text {
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+
+        .info__text {
+          display: flex;
+          gap: 0.5vw;
+          font-size: var(--normal-textbold);
+          color: var(--color-white);
+        }
+        .info-achievement__btn,
+        .btn {
+          width: 10vw;
+          height: 6vh;
+          border-radius: 22px;
+          background-color: var(--color-orange);
+          color: var(--color-white);
+        }
+      }
+    }
+
+    .information__img {
+      display: grid;
+      grid-template-columns: 2fr/ 1fr;
+      gap: 1vh;
+    }
+
+    .img__other {
+      display: flex;
+      gap: 1vw;
+    }
+  }
+
+  &__choose {
+    padding: 20vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    .choose__title {
+      display: flex;
+      flex-direction: column;
+      gap: 2vh;
+      .choosecont__title-1 {
+        text-align: center;
+        font-size: var(--font-heading4);
+        font-family: Great Vibes;
+        color: var(--color-orange);
+      }
+
+      .choosecont__title-2 {
+        font-size: var(--font-heading2);
+        font-family: Great Vibes;
+        color: var(--color-white);
+      }
+    }
+  }
+
+  .choose__chooseimg {
+    display: flex;
+    gap: 5vw;
+  }
+
+  .main__ourlist {
+    margin: 20vh 0 0 0;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: black;
+      opacity: 0.8;
+      z-index: 0;
+    }
+
+    * {
+      position: relative;
+      z-index: 1;
+    }
+    .ourlis_imgcont {
+      display: flex;
+      gap: 7vw;
+
+      .imgcont__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+        .img__text {
+          font-size: var(--font-heading5);
+          text-align: center;
+          color: var(--color-white);
+        }
+
+        .img__text--number {
+          font-size: var(--font-heading3);
+          text-align: center;
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+
+  .main__foodmenu {
+    padding: 20vh 0 0 0;
+  }
+  .foodmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    .foodmenu__title-cont {
+      .foodmenu__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+        .foodmenu__title-text {
+          font-size: var(--font-heading4);
+          color: var(--color-orange);
+          font-family: Great Vibes;
+        }
+        .foodmenu__title-text--big {
+          font-size: var(--font-heading1);
+          color: var(--color-white);
+
+          .foodmenu__span {
+            color: var(--color-orange);
+          }
+        }
+      }
+    }
+    .fodmenu__menu-box {
+      padding: 0 5vw 0 5vw;
+      display: flex;
+      align-items: center;
+      gap: 2vw;
+
+      .food__menu-img {
+        width: 28%;
+      }
+      .foodmenu__menu-cont {
+        display: grid;
+        grid-template-columns: repeat(2, 20vw);
+        column-gap: 10vw;
+        row-gap: 4vh;
+        justify-content: center;
+
+        .menu-element {
+          width: 30vw;
+          display: flex;
+          gap: 2vw;
+          .menu-element__img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .menu-element__text-cont {
+            line-height: 1.3;
+
+            .menu__element-title {
+              font-size: var(--font-heading5);
+              color: var(--color-white);
+            }
+
+            .menu-element__text {
+              font-size: var(--lerege-textbold);
+
+              color: var(--color-white);
+            }
+
+            .menu-element__text--orange {
+              font-size: var(--lerege-textbold);
+              color: var(--color-orange);
+            }
+          }
+        }
+      }
+    }
+  }
+  .main__ourchef {
+    padding: 20vh 0 0 0;
+    display: flex;
+    gap: 2vh;
+  }
+
+  .ourchef {
+    display: flex;
+    gap: 4vh;
+    flex-direction: column;
+    .ourchef__title-cont {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .ourchef__title {
+        font-size: var(--font-heading5);
+        font-family: Great Vibes;
+        color: var(--color-orange);
+      }
+
+      .ourchef__title--big {
+        font-size: var(--font-heading2);
+
+        color: var(--color-white);
+      }
+    }
+    .ourchef__img {
+      display: flex;
+      justify-content: center;
+      gap: 2vw;
+    }
+    .ourchef__btn-cont {
+      display: flex;
+      justify-content: center;
+      .ourchef__btn {
+        width: 10vw;
+        height: 5vh;
+        border-radius: 22px;
+        border: solid var(--color-orange);
+        color: var(--color-white);
+      }
+    }
+  }
+}
