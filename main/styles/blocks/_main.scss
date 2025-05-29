@@ -21,7 +21,7 @@
         .info-achievement__title {
           font-size: var(--font-heading5);
 
-          font-family: Great Vibes;
+          font-family: var(--greatfont--family);
 
           color: var(--color-orange);
           .title__span {
@@ -86,13 +86,13 @@
       .choosecont__title-1 {
         text-align: center;
         font-size: var(--font-heading4);
-        font-family: Great Vibes;
+        font-family: var(--greatfont--family);
         color: var(--color-orange);
       }
 
       .choosecont__title-2 {
         font-size: var(--font-heading2);
-        font-family: Great Vibes;
+        font-family: var(--greatfont--family);
         color: var(--color-white);
       }
     }
@@ -171,7 +171,7 @@
         .foodmenu__title-text {
           font-size: var(--font-heading4);
           color: var(--color-orange);
-          font-family: Great Vibes;
+          font-family: var(--greatfont--family);
         }
         .foodmenu__title-text--big {
           font-size: var(--font-heading1);
@@ -189,9 +189,6 @@
       align-items: center;
       gap: 2vw;
 
-      .food__menu-img {
-        width: 28%;
-      }
       .foodmenu__menu-cont {
         display: grid;
         grid-template-columns: repeat(2, 20vw);
@@ -200,7 +197,6 @@
         justify-content: center;
 
         .menu-element {
-          width: 30vw;
           display: flex;
           gap: 2vw;
           .menu-element__img {
@@ -218,7 +214,6 @@
 
             .menu-element__text {
               font-size: var(--lerege-textbold);
-
               color: var(--color-white);
             }
 
@@ -248,7 +243,7 @@
 
       .ourchef__title {
         font-size: var(--font-heading5);
-        font-family: Great Vibes;
+        font-family: var(--greatfont--family);
         color: var(--color-orange);
       }
 
@@ -275,4 +270,7 @@
       }
     }
   }
+}
+
+@media (max-width: 1440px) {
 }

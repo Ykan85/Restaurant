@@ -139,6 +139,7 @@ label {
   --normal-textbold: 16px;
   --small-textbold: 14px;
   --normalfont-family: Inter;
+  --greatfont--family: Great Vibes;
 }
 
 body {
@@ -244,7 +245,7 @@ body {
   gap: 3vh;
 }
 .header .header__infocont .infocont__textcont .textcont__info .info__title {
-  font-family: Great Vibes;
+  font-family: var(--greatfont--family);
   color: var(--color-orange);
   font-size: var(--font-heading4);
 }
@@ -306,7 +307,7 @@ body {
 }
 .main__information .information__achievement .achievement__info-achievement .info-achievement__title {
   font-size: var(--font-heading5);
-  font-family: Great Vibes;
+  font-family: var(--greatfont--family);
   color: var(--color-orange);
 }
 .main__information .information__achievement .achievement__info-achievement .info-achievement__title .title__span {
@@ -385,12 +386,12 @@ body {
 .main__choose .choose__title .choosecont__title-1 {
   text-align: center;
   font-size: var(--font-heading4);
-  font-family: Great Vibes;
+  font-family: var(--greatfont--family);
   color: var(--color-orange);
 }
 .main__choose .choose__title .choosecont__title-2 {
   font-size: var(--font-heading2);
-  font-family: Great Vibes;
+  font-family: var(--greatfont--family);
   color: var(--color-white);
 }
 .main .choose__chooseimg {
@@ -496,7 +497,7 @@ body {
 .main .foodmenu .foodmenu__title-cont .foodmenu__title .foodmenu__title-text {
   font-size: var(--font-heading4);
   color: var(--color-orange);
-  font-family: Great Vibes;
+  font-family: var(--greatfont--family);
 }
 .main .foodmenu .foodmenu__title-cont .foodmenu__title .foodmenu__title-text--big {
   font-size: var(--font-heading1);
@@ -515,9 +516,6 @@ body {
           align-items: center;
   gap: 2vw;
 }
-.main .foodmenu .fodmenu__menu-box .food__menu-img {
-  width: 28%;
-}
 .main .foodmenu .fodmenu__menu-box .foodmenu__menu-cont {
   display: -ms-grid;
   display: grid;
@@ -532,7 +530,6 @@ body {
           justify-content: center;
 }
 .main .foodmenu .fodmenu__menu-box .foodmenu__menu-cont .menu-element {
-  width: 30vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -595,7 +592,7 @@ body {
 }
 .main .ourchef .ourchef__title-cont .ourchef__title {
   font-size: var(--font-heading5);
-  font-family: Great Vibes;
+  font-family: var(--greatfont--family);
   color: var(--color-orange);
 }
 .main .ourchef .ourchef__title-cont .ourchef__title--big {

@@ -6,101 +6,102 @@
   height: 100vh;
   background-image: url("path-to-image.jpg");
   background-size: cover;
-  background-position: center;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: 0.8;
-    z-index: 0;
-  }
-
-  * {
-    position: relative;
-    z-index: 1;
-  }
-}
-.header {
-  .header__logo {
-    display: flex;
-    justify-content: center;
-    font-family: var(--normalfont-family);
-
-    .header__logo-link {
-      font-size: var(--font-heading4);
-      color: var(--color-white);
-      .header__logo-linkcolor {
-        color: var(--color-orange);
-      }
-    }
-  }
-
-  .header__navigation {
-    display: flex;
-    justify-content: space-around;
-    .header__list {
-      display: flex;
-      align-items: center;
-      gap: 3vw;
-      .header__list-element {
-        color: var(--color-white);
-      }
-    }
-    .header__list {
-      .header__list-input {
-        width: 15vw;
-        height: 3vh;
-        border-radius: 22px;
-        padding: 2vh;
-        color: var(--color-white);
-        border: 1px solid orange;
-      }
-    }
-  }
-
-  .header__infocont {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5vw;
-    .infocont__textcont {
-      width: 30%;
-      display: flex;
-      flex-direction: column;
-      gap: 3vh;
-      .textcont__info {
-        .info__title {
-          font-family: Great Vibes;
-          color: var(--color-orange);
-          font-size: var(--font-heading4);
-        }
-        .info__title-2 {
-          color: var(--color-white);
-          font-size: var(--font-heading1);
-
-          .title__span {
-            color: var(--color-orange);
-          }
-        }
-
-        .info__text {
-          color: var(--color-gray3);
-        }
-
-        .info__btn {
-          width: 10vw;
-          height: 5vh;
-          border-radius: 22px;
-          color: var(--color-white);
-          background-color: var(--color-orange);
-        }
-      }
-    }
-  }
-}
+  background-position: center;                                                         
+                                                         
+  &::before {                                                         
+    content: "";                                                         
+    position: absolute;                                                         
+    top: 0;                                                         
+    left: 0;                                                         
+    right: 0;                                                         
+    bottom: 0;                                                         
+    background-color: black;                                                         
+    opacity: 0.8;                                                         
+    z-index: 0;                                                         
+  }                                                         
+                                                         
+  * {                                                         
+    position: relative;                                                         
+    z-index: 1;                                                         
+  }                                                         
+}                                                         
+.header {                                                         
+  .header__logo {                                                         
+    display: flex;                                                         
+    justify-content: center;                                                         
+    font-family: var(--normalfont-family);                                                         
+                                                         
+    .header__logo-link {                                                         
+      font-size: var(--font-heading4);                                                         
+      color: var(--color-white);                                                         
+      .header__logo-linkcolor {                                                         
+        color: var(--color-orange);                                                         
+      }                                                         
+    }                                                         
+  }                                                         
+                                                         
+  .header__navigation {                                                         
+    display: flex;                                                         
+    justify-content: space-around;                                                         
+    .header__list {                                                         
+      display: flex;                                                         
+      align-items: center;                                                         
+      gap: 3vw;                                                         
+      .header__list-element {                                                         
+        color: var(--color-white);                                                         
+      }                                                         
+    }                                                         
+    .header__list {                                                         
+      .header__list-input {                                                         
+        width: 15vw;                                                         
+        height: 3vh;                                                         
+        border-radius: 22px;                                                         
+        padding: 2vh;                                                         
+        color: var(--color-white);                                                         
+        border: 1px solid orange;                                                         
+      }                                                         
+    }                                                         
+  }                                                         
+                                                         
+  .header__infocont {                                                         
+    height: 100%;                                                         
+    display: flex;                                                         
+    justify-content: center;                                                         
+    align-items: center;                                                         
+    gap: 5vw;                                                         
+    .infocont__textcont {                                                         
+      width: 30%;                                                         
+      display: flex;                                                         
+      flex-direction: column;                                                         
+      gap: 3vh;                                                         
+      .textcont__info {                                                         
+        .info__title {                                                         
+          font-family: var(--greatfont--family);                                                         
+          color: var(--color-orange);                                                         
+          font-size: var(--font-heading4);                                                         
+        }                                                         
+        .info__title-2 {                                                         
+          color: var(--color-white);                                                         
+          font-size: var(--font-heading1);                                                         
+                                                         
+          .title__span {                                                         
+            color: var(--color-orange);                                                         
+          }                                                         
+        }                                                         
+                                                         
+        .info__text {                                                         
+          color: var(--color-gray3);                                                         
+        }                                                         
+                                                         
+        .info__btn {                                                         
+          width: 10vw;                                                         
+          height: 5vh;                                                         
+          border-radius: 22px;                                                         
+          color: var(--color-white);                                                         
+          background-color: var(--color-orange);                                                         
+        }                                                         
+      }                                                         
+    }                                                         
+  }                                                         
+}                                                         
+                                                         
